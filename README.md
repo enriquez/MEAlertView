@@ -2,6 +2,12 @@
 
 `UIAlertView` subclass with a simpler API using blocks and target/action invocations.
 
+## Add to your project
+
+You can either copy the files into your project or you can use CocoaPods with the following in your Podfie:
+
+    pod 'MEAlertView', '~> 1.0.0'
+
 ## Examples
 
 Below are two examples of an alert view with two buttons: "Cancel" and "Ok". The first example is how you would normally use `UIAlertView`. The second is the equivalent, but using `MEAlertView`.
