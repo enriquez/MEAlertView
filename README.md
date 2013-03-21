@@ -31,7 +31,7 @@ Converted to use `MEAlertView`:
 
     - (void)showAlert {
       MEAlertView *alertView = [[MEAlertView alloc] initWithTitle:@"Alert!" message:@"This is a message"];
-      [alertView setCancelButtonTitle:@"Cancel"];
+      [alertView setCancelButtonWithTitle:@"Cancel"];
 
       // Example with block. addOtherButtonWithTitle:target:action:withObject: and its variants are also available.
       [alertView addOtherButtonWithTitle:@"Ok" onTapped:^{
